@@ -24,7 +24,13 @@ No `npm install`. No build step. React, ReactDOM, and Babel load from CDN at run
 
 ---
 
-### Option 1 — Python (simplest)
+### Option 1 — Standalone HTML (simplest of all)
+
+Download `Orchestra-MAS-Standalone.html` directly from this repo and open it in any browser — no server needed. Everything is bundled into a single self-contained file.
+
+---
+
+### Option 2 — Python
 
 ```bash
 # Python 3
@@ -35,7 +41,7 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 
 ---
 
-### Option 2 — Node
+### Option 3 — Node
 
 ```bash
 npx serve .
@@ -49,32 +55,11 @@ npx http-server -p 8000
 
 ---
 
-### Option 3 — VS Code Live Server
+### Option 4 — VS Code Live Server
 
 1. Install the **Live Server** extension
 2. Right-click `index.html` → **"Open with Live Server"**
-
----
-
-### Option 4 — Standalone HTML (simplest of all)
-
-Download `Orchestra-MAS-Standalone.html` directly from this repo and open it in any browser — no server needed. Everything is bundled into a single self-contained file.
-
-> See also: [Legacy Codebase Modernizer](https://github.com/VikramAdityaTheKing/Legacy-Codebase-Modernizer) for a similar standalone approach.
-
----
-
-## Deploy to GitHub Pages
-
-1. Push the folder to a **public** GitHub repository
-2. Go to **Settings → Pages**
-3. Set source to **Deploy from `main` branch, root (`/`)**
-4. Your live link becomes:
-
-```
-https://<your-username>.github.io/<repo-name>/
-```
-
+   
 ---
 
 ## Scenarios
