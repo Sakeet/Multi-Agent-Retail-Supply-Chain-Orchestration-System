@@ -52,14 +52,6 @@ Or:
 ```bash
 npx http-server -p 8000
 ```
-
----
-
-### Option 4 — VS Code Live Server
-
-1. Install the **Live Server** extension
-2. Right-click `index.html` → **"Open with Live Server"**
-   
 ---
 
 ## Scenarios
