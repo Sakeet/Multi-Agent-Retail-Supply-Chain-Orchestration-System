@@ -89,4 +89,4 @@ The system ships with four pre-loaded disruption scenarios you can run from the 
 
 ## Author
 
-**[Sakeet Kopparapu]** 
+**Sakeet Kopparapu** 
